@@ -13,4 +13,5 @@ for bukva in range(len(word)):
         for a in scores[n]:
             if a == word[bukva]:
                 result += n
+# result = result + n if a == word[bukva] for a in scores[n] for n in scores.keys() for bukva in range(len(word)):
 print(result)
