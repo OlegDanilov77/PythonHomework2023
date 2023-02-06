@@ -5,6 +5,6 @@
 # произведение P. Помогите Кате отгадать задуманные Петей числа.
 sum = int(input("Input the sum of the numbers: "))
 mult = int(input("Input the result of multiplication of numbers: "))
-for i in range(2, sum):
+for i in range(1, sum):
     if mult == i*(sum-i):
         print(i, sum-i)
